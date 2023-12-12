@@ -1,0 +1,209 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #F1EDFF;
+  padding-bottom: 100px;
+}
+
+.tag {
+  padding: 12px 26px;
+  width: fit-content;
+  /* height: 48px; */
+  background: #FBF9FF;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  color: #000000;
+}
+
+.tag:hover {
+  background: #858AEB;
+  color: #FFFFFF;
+}
+
+.tags {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: 825px 175px;
+  margin: 40px 0;
+}
+
+.tagcont {
+  display: flex;
+  gap: 20px;
+  /* overflow: hidden; */
+}
+
+.cresess {
+  justify-self: end;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.sessions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  grid-column-gap: 10px;
+  grid-row-gap:15px;
+}
+
+.upcomingsessions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.sessdetail {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sdimg {
+  border-radius: 16px;
+  margin: 10px 0;
+}
+
+.sessdetail button {
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  background: #000;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.udcontent {
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.udcleft {
+  text-align: center;
+}
+
+.udcright {
+  padding: 20px 0;
+}
+
+.udcright h3 {
+  margin: 10px 0;
+}
+
+.udcright button {
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  background: #000;
+  margin: 20px 10px 20px 0;
+  cursor: pointer;
+}
+
+.udcmsg {
+  border: 2px solid #858AEB;
+  height: 80px;
+  width: 470px;
+  border-radius: 12px;
+  background: #FBF9FF;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.udcmsg p {
+  font-size: 12px;
+  overflow-wrap: break-word; 
+}
+
+.udcbtn {
+  width: 480px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background: #000;
+  margin: 20px 10px 20px 0;
+  cursor: pointer;
+}
+
+.mmsg {
+  width: 440px;
+  overflow-wrap: break-word; 
+}
+
+.udvideo {
+  background: #000000;
+  height: 540px;
+  /* width: 1000px;  */
+  border-radius: 16px;
+}
+
+.udvideo video {
+  width: 1000px;
+  height: 540px;
+}
+
+.udvidcont {
+  position: relative;
+  height: 540px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.udcontrols {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.udreco {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.udreco button {
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.udleave {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.udleave button {
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.udcontrols button {
+  /* width: 50px; */
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background: #858AEB;
+  color: #fff;
+}

@@ -1,0 +1,51 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .form {
+    width: 100%;
+  }
+  
+  .formItem {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .formItem label {
+    display: block;
+    margin: 15px 0;
+    font-size: 18px;
+  }
+  
+  .formItem input[type='text'],
+  .formItem input[type='number'],
+  .formItem textarea {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #858AEB;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .formItem button {
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background: #000;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .message {
+    color: green;
+  }
